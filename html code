@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <title> Website</title>
+        </head>
+        <form action=""></form>
+        <body>
+            
+            <h1> Tutorials Sign up  </h1>
+            
+            please sign in here. 
+
+            
+           
+        </body>
+        <form action="" method="post">
+            <div>
+                <label for="login-email">Email Address </label>
+                <input type="email" name="login-email" id="login-email" >
+
+
+            </div>
+            <div>
+                <label for="login-password">password </label>
+                <input type="password" name="login-password" id="login-password" >
+
+            </div>
+           
+                <label for="login-remember">Remember me? </label>
+                <input type="checkbox" name="login-remember" id="login-remember" >
+
+            <button>sign in</button>
+        </form>
+
+</html>
