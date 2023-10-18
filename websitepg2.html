@@ -1,0 +1,18 @@
+<html>
+<body>
+    Tutorials list 
+<p id="res"></p>
+<script>
+var data = window.location.search;
+var params = new URLSearchParams(data);
+console.log(params);
+var email = params.get("email")
+var password = params.get("password")
+var getData = "Email : "+email+"<br>";
+ getData += "Password: "+password+"<br>";
+document.getElementById("res").innerHTML = getData;
+</script>
+
+</body>
+
+</html>
